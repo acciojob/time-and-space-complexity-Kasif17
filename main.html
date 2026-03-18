@@ -7,6 +7,11 @@
 </head>
 
 <body>
+	 <h1>Time, Space Complexity </h1>
+	<p>The time complexity of this solution is O(n) because we traverse the entire binary string exactly once from left to right. For each character, we perform only constant-time operations—either incrementing a counter when we see '1' or adding that counter to the total steps when we see '0'. There are no nested loops or repeated scans of the string, so the total work done grows linearly with the length of the string. Since every character must be checked at least once, O(n) is the best possible (optimal) time complexity for this problem.</p>
+	
+	<p> <b>The space complexity is O(1) because we do not use any additional data structures like arrays, lists, or hash maps. Instead, we only maintain a few variables such as onesCount and steps, which take constant memory regardless of the input size. Even if the string becomes very large, the memory usage does not increase. Therefore, the algorithm uses constant space, making it space-efficient and optimal.</b></p>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
